@@ -1,0 +1,20 @@
+
+.heading{
+	background-color: #b10a0a;
+}
+
+.ccsf-guides{
+	background-color: #000;
+	color: #fdaf3b;
+	padding: 7px 20px;
+	border-radius: 10px 10px 0 0;
+	display: inline-block;
+}
+
+.ccsf-guides a{
+	color: #fff;
+}
+
+nav{
+	background: #000;
+}
