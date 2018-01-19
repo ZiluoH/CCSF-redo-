@@ -3,6 +3,10 @@
 	background-color: #b10a0a;
 }
 
+.heading img{
+	padding: 10px 5px 7px 5px;
+}
+
 .ccsf-guides{
 	background-color: #000;
 	color: #fdaf3b;
@@ -17,4 +21,31 @@
 
 nav{
 	background: #000;
+}
+
+.nav-link{
+	color: #000 !important;
+	font-weight: bold;
+	
+}
+
+
+
+
+
+/*media queries*/
+@media only screen and (min-width: 768px){
+	.nav-link{
+		border-left: 1px solid black;
+	}
+
+	.nav-link:last-child{
+		border-right: 1px solid black;
+	}
+}
+
+@media only screen and (max-width: 446px){
+	.heading img{
+		width: 100%;
+	}
 }
