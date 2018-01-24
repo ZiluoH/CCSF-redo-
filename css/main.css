@@ -54,9 +54,13 @@ nav{
 }
 
 .quickLinks .list-group-item:last-child{
-	border-bottom: solid 1.1px black;
+	border-bottom: solid 1.5px black;
 }
 
+/*Content*/
+.content{
+	width: 102.5%;
+}
 /*media queries*/
 @media only screen and (min-width: 768px){
 	.nav-link{
